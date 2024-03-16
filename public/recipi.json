@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://example.com/chicken_stir_fry.jpg",
+      "recipe_image": "https://i.ibb.co/cLYzvZz/chiken-stir.webp",
       "recipe_id": "001",
       "recipe_name": "Chicken Stir Fry",
       "short_description": "A delicious and quick chicken stir fry with vegetables.",
@@ -14,7 +14,7 @@
       "calories": "320 calories"
     },
     {
-      "recipe_image": "https://example.com/spaghetti_bolognese.jpg",
+      "recipe_image": "https://i.ibb.co/drPLNyq/spaghetti.jpg",
       "recipe_id": "002",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with a rich meat sauce.",
@@ -28,7 +28,7 @@
       "calories": "480 calories"
     },
     {
-      "recipe_image": "https://example.com/vegetable_curry.jpg",
+      "recipe_image": "https://i.ibb.co/F4nRK9W/curry.jpg",
       "recipe_id": "003",
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetarian curry with assorted vegetables.",
@@ -42,7 +42,7 @@
       "calories": "250 calories"
     },
     {
-      "recipe_image": "https://example.com/fruit_salad.jpg",
+      "recipe_image": "https://i.ibb.co/Hqc5vCq/fresh-fruit-salad.jpg",
       "recipe_id": "004",
       "recipe_name": "Fresh Fruit Salad",
       "short_description": "A refreshing and healthy fruit salad with a citrus dressing.",
@@ -56,7 +56,7 @@
       "calories": "150 calories"
     },
     {
-      "recipe_image": "https://example.com/greek_salad.jpg",
+      "recipe_image": "https://i.ibb.co/MCCjbyW/istockphoto.jpg",
       "recipe_id": "005",
       "recipe_name": "Greek Salad",
       "short_description": "A classic Greek salad with feta cheese and olives.",
@@ -70,7 +70,7 @@
       "calories": "180 calories"
     },
     {
-      "recipe_image": "https://example.com/smoothie_bowl.jpg",
+      "recipe_image": "https://i.ibb.co/5RrGzd4/easy-berry-banana-smoothie.jpg",
       "recipe_id": "006",
       "recipe_name": "Berry Smoothie Bowl",
       "short_description": "A colorful and nutritious smoothie bowl topped with fresh fruits.",

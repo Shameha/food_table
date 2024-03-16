@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './Componants/Banner/Banner'
 import Menus from './Componants/Menus/Menus'
@@ -7,7 +8,11 @@ import Our_products from './Componants/Our_products/Our_products'
 import Want_cook from './Componants/Want_cook/Want_cook'
 
 function App() {
-  
+  const[wanttocook,setWantCook]=useState([]);
+  const wantCook = menu =>{
+    const newAdd =[...wanttocook,menu];
+    setWantCook(newAdd);
+  }
 
   return (
     <>
@@ -18,11 +23,11 @@ function App() {
      <div className='flex gap-10'>
       <div className='col-span-2'>
 
-     <Menus></Menus>
+     <Menus wantCook={wantCook}></Menus>
       </div>
       <div className='col-span-2'>
 
-     <Want_cook></Want_cook>
+     <Want_cook wanttocook={wanttocook} ></Want_cook>
       </div>
      </div>
     </>

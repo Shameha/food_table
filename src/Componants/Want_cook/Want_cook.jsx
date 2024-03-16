@@ -1,9 +1,9 @@
 
 
-const Want_cook = () => {
+const Want_cook = ({wanttocook}) => {
     return (
         <div>
-          <h3 className="text-2xl font-bold items-center">Want to cook: </h3>  
+          <h3 className="text-2xl font-bold items-center">Want to cook:{wanttocook.length} </h3>  
           <div className="overflow-x-auto bg-slate-300">
   <table className="table table-zebra">
     {/* head */}
