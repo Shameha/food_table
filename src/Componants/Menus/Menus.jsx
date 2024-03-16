@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 const Menus = ({wantCook}) => {
     const[menus,setMenus] = useState([]);
+
     useEffect( () =>{
         fetch('recipi.json')
         .then(res=> res.json())

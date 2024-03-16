@@ -4,6 +4,7 @@ import { BsFire } from "react-icons/bs";
 
 const Menu = ({menu ,wantCook}) => {
     const{recipe_image,recipe_name,short_description,ingredients,preparing_time,calories}=menu
+    
     return (
         <div>
           <div className="card w-96 bg-base-100 shadow-xl">
