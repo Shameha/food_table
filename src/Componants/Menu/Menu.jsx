@@ -29,7 +29,7 @@ const Menu = ({menu ,wantCook}) => {
         </div>
     </div>
     <div className="card-actions justify-start">
-    <button onClick={()=>wantCook(menu)} className="btn btn-success text-black rounded-full">Want to Cook</button>
+    <button onClick={( )=>wantCook(menu)} className="btn btn-success text-black rounded-full">Want to Cook</button>
     </div>
   </div>
 </div>            

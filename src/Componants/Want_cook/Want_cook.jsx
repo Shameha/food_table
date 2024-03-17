@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import Mark from '../Mark/Mark';
 
 const Want_cook = ({wanttocook}) => {
@@ -17,7 +17,7 @@ const Want_cook = ({wanttocook}) => {
         </div>
     );
 };
-Want_cook.PropTypes ={
+Want_cook.propTypes ={
     wanttocook:PropTypes.array
 }
 

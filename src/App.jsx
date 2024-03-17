@@ -9,16 +9,19 @@ import Want_cook from './Componants/Want_cook/Want_cook'
 
 function App() {
   const[wanttocook,setWantCook]=useState([]);
-  const wantCook = menu =>{
-    const newAdd =[...wanttocook,menu];
-    setWantCook(newAdd);
+  const wantCook = (menu) =>{
+    const isExist = wanttocook.find((pd) => pd.recipe_id == menu.recipe_id);
+    if(!isExist){
+   setWantCook([...wanttocook,menu]);
+    }
   }
+
+    
 
   
 
   return (
     <>
-    
      <Nav></Nav>
      <Banner></Banner>
      <Our_products></Our_products>

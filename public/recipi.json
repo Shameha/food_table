@@ -1,7 +1,7 @@
 [
     {
       "recipe_image": "https://i.ibb.co/cLYzvZz/chiken-stir.webp",
-      "recipe_id": "001",
+      "recipe_id": "1",
       "recipe_name": "Chicken Stir Fry",
       "short_description": "A delicious and quick chicken stir fry with vegetables.",
       "ingredients": [
@@ -15,7 +15,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/drPLNyq/spaghetti.jpg",
-      "recipe_id": "002",
+      "recipe_id": "2",
       "recipe_name": "Spaghetti Bolognese",
       "short_description": "Classic Italian pasta dish with a rich meat sauce.",
       "ingredients": [
@@ -29,7 +29,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/F4nRK9W/curry.jpg",
-      "recipe_id": "003",
+      "recipe_id": "3",
       "recipe_name": "Vegetable Curry",
       "short_description": "A flavorful vegetarian curry with assorted vegetables.",
       "ingredients": [
@@ -43,7 +43,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/Hqc5vCq/fresh-fruit-salad.jpg",
-      "recipe_id": "004",
+      "recipe_id": "4",
       "recipe_name": "Fresh Fruit Salad",
       "short_description": "A refreshing and healthy fruit salad with a citrus dressing.",
       "ingredients": [
@@ -57,7 +57,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/MCCjbyW/istockphoto.jpg",
-      "recipe_id": "005",
+      "recipe_id": "5",
       "recipe_name": "Greek Salad",
       "short_description": "A classic Greek salad with feta cheese and olives.",
       "ingredients": [
@@ -71,7 +71,7 @@
     },
     {
       "recipe_image": "https://i.ibb.co/5RrGzd4/easy-berry-banana-smoothie.jpg",
-      "recipe_id": "006",
+      "recipe_id": "6",
       "recipe_name": "Berry Smoothie Bowl",
       "short_description": "A colorful and nutritious smoothie bowl topped with fresh fruits.",
       "ingredients": [
