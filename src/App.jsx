@@ -47,12 +47,12 @@ else{
      <Nav></Nav>
      <Banner></Banner>
      <Our_products></Our_products>
-     <div className='flex gap-10'>
-      <div className='col-span-2'>
+     <div className='flex gap-30 justify-between '>
+      <div className='col-span-3'>
 
      <Menus wantCook={wantCook}></Menus>
       </div>
-      <div className='col-span-2'>
+      <div className='col-span-3'>
 
      <Want_cook wanttocook={wanttocook} addToCart={addToCart} ></Want_cook>
      <Current_cookings cart={cart} ></Current_cookings>

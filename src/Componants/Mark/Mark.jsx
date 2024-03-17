@@ -18,7 +18,7 @@ const Mark = ({mark,addToCart}) => {
         <td>{preparing_time}</td>
         <td>{calories}</td>
         <td><button onClick={() => addToCart(mark)} 
-        className="btn btn-accent rounded-full p-1 m-1">Prepering</button></td>
+        className="btn btn-accent rounded-full p-1 m-1">Preparing</button></td>
       </tr>
     </thead>
    

@@ -10,14 +10,14 @@ const Menu = ({menu ,wantCook}) => {
           <div className="card w-96 bg-base-100 shadow-xl">
   <figure><img className="p-5 rounded-3xl" src={recipe_image} alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">{recipe_name}</h2>
+    <h3 className="card-title">{recipe_name}</h3>
     <p>{short_description}</p>
-    <p>Ingredients:{ingredients.length}</p>
-    <p>
+    <p className='font-bold'>Ingredients:{ingredients.length}</p>
+    <ul>
         {
             ingredients.map((ing,idx) =><span className='flex items-center' key={idx}><a href="">{ing}</a></span> )
         }
-    </p>
+    </ul>
     <div className='flex gap-5'>
         <div className='flex items-center'>
         <LuTimer />
