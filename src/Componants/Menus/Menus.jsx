@@ -6,7 +6,7 @@ const Menus = ({wantCook}) => {
     const[menus,setMenus] = useState([]);
 
     useEffect( () =>{
-        fetch('recipi.json')
+        fetch('./recipi.json')
         .then(res=> res.json())
         .then(data=> setMenus(data))
     },[])
