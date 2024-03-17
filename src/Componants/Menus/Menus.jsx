@@ -15,7 +15,8 @@ const Menus = ({wantCook}) => {
         <div className="grid grid-cols-2 gap-10">
             {
                 menus.map(menu =><Menu key={menu.id}
-                    wantCook={wantCook} 
+                    wantCook={wantCook}
+                    
                      menu={menu}></Menu> )
             }
                     
@@ -24,7 +25,8 @@ const Menus = ({wantCook}) => {
     );
 };
 Menus.propTypes ={
-    wantCook:PropTypes.func
+    wantCook:PropTypes.func,
+    addToCart:PropTypes.func
 }
 
 export default Menus;

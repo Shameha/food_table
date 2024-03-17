@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types'
-const Mark = ({mark}) => {
+const Mark = ({mark,addToCart}) => {
     const{recipe_name,preparing_time,calories}=mark;
     return (
         <div>
@@ -13,11 +13,12 @@ const Mark = ({mark}) => {
      
        {/* row 1 */}
        <tr>
-        {/* <th>1</th> */}
+         {/* <th>{recipe_id}</th> */}
         <td>{recipe_name}</td>
         <td>{preparing_time}</td>
         <td>{calories}</td>
-        <td><button className="btn btn-accent rounded-full p-1 m-1">Prepering</button></td>
+        <td><button onClick={() => addToCart(mark)} 
+        className="btn btn-accent rounded-full p-1 m-1">Prepering</button></td>
       </tr>
     </thead>
    
@@ -27,6 +28,8 @@ const Mark = ({mark}) => {
     );
 };
 Mark.propTypes = {
-mark:PropTypes.object
+mark:PropTypes.object,
+addToCart:PropTypes.object,
+cooking:PropTypes.object
 }
 export default Mark;
